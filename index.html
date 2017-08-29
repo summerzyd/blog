@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leigh Blog</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="nav navbar-default">
+      <div class="container">
+        <div class="top-bar">
+          <ul class="top-list-style">
+            <li>标签云</li>
+            <li>读者墙</li>
+            <li>RSS订阅</li>
+          </ul>
+          勤记录 懂分享
+        </div>
+        <div class="navbar-header">
+          <a class="navbar-brand nav-logo">
+            <img src="images/logo.jpg">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">首页</a> </li>
+            <li><a href="#">技术笔记</a> </li>
+            <li><a href="#">源码分享</a> </li>
+            <li><a href="#">资讯分享</a> </li>
+            <li><a href="#">关于我</a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="container">
+    <div class="content-wrap">
+      <div class="content">
+        <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+          <ol class="carousel-indicators">
+            <li data-target="#carouse" data-slide-to="0" class="active"></li>
+            <li data-target="#carouse" data-slide-to="1"></li>
+            <li data-target="#carouse" data-slide-to="2"></li>
+          </ol>
+          
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/1.jpg">
+            </div>
+            <div class="item">
+              <img src="images/2.jpg">
+            </div>
+            <div class="item">
+              <img src="images/5.jpg">
+            </div>
+          <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+        </div>
+      </div>
+      <article class="excerpt-recommend">
+        <h2>
+          <span>【推荐】</span>
+          <a href="#" title="title">title</a>
+        </h2>
+        <p>
+          content
+        </p>
+      </article>
+      <div class="title">
+        <h3>最新发布</h3>
+      </div>
+      <article class="excerpt excerpt-1">
+        <a class="focus" href="#" title="杭州西湖" target="_blank" draggable="false">
+          <img class="thumb" src="images/hangzhou.jpg">
+        </a>
+        <header>
+          <a href="#" target="_blank">资讯分享</a>
+          <i></i>
+          <h2>
+            <a href="#" title="杭州西湖">杭州西湖</a>
+          </h2>
+        </header>
+        <p class="meta">
+          <time>
+            <i class="glyphicon glyphicon-time"></i>2017-08-18
+          </time>
+          <span>
+            <i class="glyphicon glyphicon-eye-open"></i>40
+          </span>
+          <a>
+            <i class="glyphicon glyphicon-comment"></i>2
+          </a>
+        </p>
+        <p class="note">
+          杭州风景美丽，人间天堂名不虚传。整个城市的绿化很好，空气很清新。最著名的景点就是西湖，西溪湿地也很舒服。
+          杭州的生活节奏不快，租借一辆自行车在市区骑行也很不错。
+        </p>
+      </article>
+      <article class="excerpt excerpt-2">
+        <a class="focus" href="#" title="杭州西湖" target="_blank" draggable="false">
+          <img class="thumb" src="images/hangzhou.jpg">
+        </a>
+        <header>
+          <a href="#" target="_blank">资讯分享</a>
+          <i></i>
+          <h2>
+            <a href="#" title="杭州西湖">杭州西湖</a>
+          </h2>
+        </header>
+        <p class="meta">
+          <time>
+            <i class="glyphicon glyphicon-time"></i>2017-08-18
+          </time>
+          <span>
+            <i class="glyphicon glyphicon-eye-open"></i>40
+          </span>
+          <a>
+            <i class="glyphicon glyphicon-comment"></i>2
+          </a>
+        </p>
+        <p class="note">
+          杭州风景美丽，人间天堂名不虚传。整个城市的绿化很好，空气很清新。最著名的景点就是西湖，西溪湿地也很舒服。
+          杭州的生活节奏不快，租借一辆自行车在市区骑行也很不错。
+        </p>
+      </article>
+      </div>
+    </div>
+    <aside class="siderbar">
+      <div class="fixed">
+        <div class="widget widget-tabs">
+          <ul class="nav nav-tabs"  role="tablist">
+            <li role="presentation" class="active">
+              <a href="#notice" aria-controls="notice" role="tab" data-toggle="tab">统计信息</a>
+            </li>
+            <li role="presentation">
+              <a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">联系站长</a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="notice">
+              <h2>
+                日志总数：
+                  888篇
+              </h2>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="contact">
+             <h2> QQ: 939397232</h2>
+             <h2> Email: 939397232@qq.com</h2>
+            </div>
+          </div>
+        </div>
+        <div class="widget widget-search">
+          <form class="navbar-form" action="#" method="post">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="请输入关键字" size="40">
+              <span class="input-group-btn">
+                <button class="btn btn-default btn-search">搜索</button>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="widget widget-hot">
+        <h3>
+          最新评论文章
+        </h3>
+        <ul>
+          <li>
+            <a title="title" href="#">
+              <span class="thumbnail">
+                <img src="images/hangzhou.jpg">
+              </span>
+              <span class="text">
+                testoijfdiaj
+              </span>
+              <span class="muted">
+                <i class="glyphicon glyphicon-time"></i>2017-08-29
+              </span>
+              <span class="muted">
+                <i class="glyphicon glyphicon-eye-open"></i>99
+              </span>
+            </a>
+          </li>
+          <li>
+            <a title="title" href="#">
+              <span class="thumbnail">
+                <img src="images/hangzhou.jpg">
+              </span>
+              <span class="text">
+                testoijfdiaj
+              </span>
+              <span class="muted">
+                <i class="glyphicon glyphicon-time"></i>2017-08-29
+              </span>
+              <span class="muted">
+                <i class="glyphicon glyphicon-eye-open"></i>99
+              </span>
+            </a>
+          </li>
+          <li>
+            <a title="title" href="#">
+              <span class="thumbnail">
+                <img src="images/hangzhou.jpg">
+              </span>
+              <span class="text">
+                test222222222222
+              </span>
+              <span class="muted">
+                <i class="glyphicon glyphicon-time"></i>2017-08-29
+              </span>
+              <span class="muted">
+                <i class="glyphicon glyphicon-eye-open"></i>99
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="widget widget-sentence">
+        <a href="#" target="_blank" rel="nofollow" title="专业网站建设" draggable="false">
+          <img style="width: 100%" src="images/test.jpg" alt="专业网站建设" draggable="false"></a>
+      </div>
+      <div class="widget widget-sentence">
+        <a href="#" target="_blank" rel="nofollow" title="专业网站建设" draggable="false">
+          <img style="width: 100%" src="images/test.jpg" alt="专业网站建设" draggable="false"></a>
+      </div>
+    </aside>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <p>本站[<a href="#">Leigh网络博客</a>]的部分内容来源于网络，若侵犯到您的利益，请联系站长删除！谢谢！Powered By [
+        <a href="#" target="_blank" rel="nofollow">DTcms</a>
+        ] Version 4.0 &nbsp;
+        <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">闽ICP备00000000号-1</a> &nbsp;
+        <a href="#" target="_blank" class="sitemap">网站地图</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
